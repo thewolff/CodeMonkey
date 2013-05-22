@@ -4,6 +4,21 @@ if (typeof(game) == 'undefined') game = {};
 game.location = (function(window, document, $, undefined){
 	// Private
 
+	var examine = function(selector) {
+		var listed = c_location[selector.toLowerCase()];
+		console.group(selector);
+		for(var i = 0, len = listed.length, description; i < len; i++) {
+				console.group(listed[i]['title']);
+					if(selector === "Exits") {
+						description = (listed[i].enabled) ? listed[i].desc.enabled : listed[i].desc.disabled;
+					} else {
+						description = listed[i].desc;
+					}
+					console.log(description);
+				console.groupEnd();
+		}
+		console.groupEnd();
+	};
 
 	var loc_list = {
 		day0: {
@@ -14,7 +29,7 @@ game.location = (function(window, document, $, undefined){
 						enabled: false,
 						title: 'Subway',
 						desc: {
-							disabled: "It might help to have your metrocard and keys, too.You're late for work, but you can't leave without washing up. It might help to have your metrocard and keys, too.",
+							disabled: "You're late for work, but you can't leave without washing up. You're going to need your  metrocard and keys before you leave, too. ",
 							enabled: "You'd better get to the subway - your boss will kill you if you're late again."
 						}
 				},
@@ -26,11 +41,13 @@ game.location = (function(window, document, $, undefined){
 					}
 				}
 			],
-				grabbables: [
+				items: [
 					{
-						name: 'house keys',
+						title: 'house keys',
+						canGrab: true,
 						weight: 1,
 						owned: false,
+						desc: "Your house keys. It'd be a bad idea to leave without them.",
 						use: function(){
 							console.log('used!');
 						}
@@ -47,25 +64,12 @@ game.location = (function(window, document, $, undefined){
 		current_location: c_location['title'],
 
 		look: function() {
-			console.log('you looked!');
+			examine('Items');
+			game.location.exits();
 		},
 
 		exits: function() {
-			console.group('Exits');
-			var listed_exits = c_location.exits;
-			for(var i = 0, len = listed_exits.length, description, tmp_exit_arr = [], tmp_exit = {}; i < len; i++){
-				console.group(listed_exits[i]['title']);
-				description = (listed_exits[i].enabled) ? listed_exits[i].desc.enabled : listed_exits[i].desc.disabled;
-				console.log('%c%s', "color:#00CC00; background:black; font-size: 14pt", description);
-				console.groupEnd();
-				tmp_exit = {
-					title: listed_exits[i]['title'],
-					description: description
-				}
-				tmp_exit_arr.push(tmp_exit);
-			}
-			console.groupEnd();
-			return {"Current Exits": tmp_exit_arr};
+			examine('Exits');
 		}
 	};
 

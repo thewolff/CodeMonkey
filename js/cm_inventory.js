@@ -16,7 +16,7 @@ game.inventory = (function(window, document, $, undefined){
   return {
     youHave: inv_items,
 
-    makeNewInv: function(attrs){
+    addToInv: function(attrs){
       var tmp_obj = new Inv_Item(attrs);
       game.events.notify('item_added', tmp_obj);
       inv_items.push(tmp_obj);
