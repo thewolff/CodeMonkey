@@ -13,6 +13,6 @@ _.mixin({
 });
 
 $(document).ready(function(){
-	CM.init();
+	game.init();
 });
 

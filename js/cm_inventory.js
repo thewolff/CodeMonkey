@@ -1,7 +1,7 @@
 // Ensure CM Namespace
-if (typeof(CM) == 'undefined') CM = {};
+if (typeof(game) == 'undefined') game = {};
 
-CM.inventory = (function(window, document, $, undefined){
+game.inventory = (function(window, document, $, undefined){
   // Private
   var inv_items = [];
 
@@ -14,11 +14,11 @@ CM.inventory = (function(window, document, $, undefined){
   }
   // Public
   return {
-    itemsOwned: inv_items,
+    youHave: inv_items,
 
     makeNewInv: function(attrs){
       var tmp_obj = new Inv_Item(attrs);
-      CM.events.notify('item_added', tmp_obj);
+      game.events.notify('item_added', tmp_obj);
       inv_items.push(tmp_obj);
     },
 
@@ -26,7 +26,7 @@ CM.inventory = (function(window, document, $, undefined){
       for(var i =0, len = inv_items.length; i < len; i++){
         if(inv_items[i].name === name) {
           inv_items = inv_items.splice(i, 1);
-          CM.events.notify('item_removed', inv_items[i]);
+          game.events.notify('item_removed', inv_items[i]);
           break;
         }
       }

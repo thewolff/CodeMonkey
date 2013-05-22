@@ -1,7 +1,7 @@
 // Ensure CM Namespace
-if (typeof(CM) == 'undefined') CM = {};
+if (typeof(game) == 'undefined') game = {};
 
-CM.progress = (function(window, document, $, undefined){
+game.progress = (function(window, document, $, undefined){
   // Private
 
   // Public
@@ -11,7 +11,7 @@ CM.progress = (function(window, document, $, undefined){
 	pointsPerSecond: 1,
 
 	updatePoints: function(diff) {
-		CM.progress.points += diff;
+		game.progress.points += diff;
 	},
 
 	cashOwned: 0,

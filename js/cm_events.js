@@ -1,7 +1,7 @@
 // Ensure CM Namespace
-if (typeof(CM) == 'undefined') CM = {};
+if (typeof(game) == 'undefined') game = {};
 
-CM.events = (function(window, document, $, undefined){
+game.events = (function(window, document, $, undefined){
   // Private
   var $doc = $(document);
   // Public

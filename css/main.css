@@ -298,3 +298,13 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}

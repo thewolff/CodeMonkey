@@ -1,17 +1,18 @@
-
-
 // Ensure CM Namespace
 if (typeof(game) == 'undefined') game = {};
 
-game = (function(window, document, $, undefined){
+game.you = (function(window, document, $, undefined){
   // Private
+
   // Public
   return {
-	init: function() {
-	   console.log('inittown');
+	hp: 100,
 
+	shield: false,
+
+	updateHP: function(val){
+		game.you.hp += val;
 	}
-
   };
 
 
