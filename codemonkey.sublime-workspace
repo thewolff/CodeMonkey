@@ -1,0 +1,400 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"compil",
+				"compiledTemplate"
+			],
+			[
+				"pars",
+				"parseJSON"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"profil",
+				"profileEnd"
+			],
+			[
+				"error",
+				"errorCode"
+			],
+			[
+				"get",
+				"getCurrentSlide"
+			],
+			[
+				"cu",
+				"currentSlide"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "codemonkey",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Bookmarks: Select Previous"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Joseph/Downloads/h5bp-html5-boilerplate-v4.1.0-0-gaa9bcbe/h5bp-html5-boilerplate-3cd1967/js/main.js",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/xampp/htdocs/march2013/templates/handlebars.html",
+		"/C/xampp/htdocs/march2013/templates/mustache - Copy.html",
+		"/C/Users/Joseph/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/march2013/templates/mustache.js",
+		"/C/Users/Joseph/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/xampp/htdocs/march2013/index.html",
+		"/C/Users/Joseph/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Joseph/AppData/Local/Temp/Temp1_httpd-vhosts.zip/httpd-vhosts.conf",
+		"/C/Windows/System32/Drivers/etc/hosts.bckp",
+		"/C/xampp/htdocs/codemonkey/app/modules/snippet.js",
+		"/C/xampp/htdocs/foo/app/templates/example.html",
+		"/C/xampp/htdocs/codemonkey/app/config.js",
+		"/C/xampp/htdocs/codemonkey/vendor/jam/require.config.js",
+		"/C/xampp/htdocs/todomvc/dependency-examples/backbone_require/js/views/todos.js",
+		"/C/xampp/htdocs/todomvc/dependency-examples/backbone_require/js/models/todo.js",
+		"/C/xampp/htdocs/todomvc/dependency-examples/backbone_require/js/collections/todos.js",
+		"/C/xampp/htdocs/reveal.js/index.html",
+		"/C/xampp/htdocs/CodeMonkey/index.html",
+		"/C/xampp/htdocs/CodeMirror/demo/theme.html",
+		"/C/xampp/htdocs/CodeMirror/demo/closetag.html",
+		"/C/xampp/htdocs/CodeMonkey/js/views/app.js",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/xampp/htdocs/CodeMirror/mode/htmlembedded/index.html",
+		"/C/xampp/htdocs/CodeMirror/mode/htmlmixed/index.html",
+		"/C/xampp/htdocs/CodeMirror/mode/javascript/typescript.html",
+		"/C/xampp/htdocs/CodeMirror/mode/javascript/index.html",
+		"/C/xampp/htdocs/CodeMonkey/js/models/snippet.js",
+		"/C/xampp/htdocs/CodeMonkey/js/main.js",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/xampp/htdocs/CodeMirror/doc/docs.css",
+		"/C/xampp/htdocs/CodeMirror/demo/folding.html",
+		"/C/xampp/htdocs/CodeMonkey/js/routers/router.js",
+		"/C/xampp/htdocs/codemonkey/.gitignore",
+		"/C/xampp/htdocs/backbone-boilerplate/index.html",
+		"/C/xampp/htdocs/CodeMonkey/README.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">",
+			"<",
+			">",
+			"<",
+			"hb2",
+			">",
+			"<",
+			"src=\"",
+			"src-\"",
+			">",
+			"<",
+			"src=",
+			"img",
+			"profile",
+			"trace",
+			"time",
+			".js",
+			"jquery",
+			"reveal.js",
+			"title",
+			"auto_",
+			"auto_save",
+			"auto",
+			"virtual",
+			"css",
+			"heme",
+			"style",
+			"localhost",
+			"local",
+			"virtual",
+			"css/theme/theme/",
+			"../",
+			"defult",
+			"theme",
+			"codemirror",
+			"render",
+			"jquery"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"&gt;",
+			"&lt;",
+			"css/theme/",
+			"CodeMirror"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "codemonkey",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 52.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true
+}
