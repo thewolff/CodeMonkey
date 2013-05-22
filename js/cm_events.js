@@ -7,6 +7,7 @@ CM.events = (function(window, document, $, undefined){
   // Public
   return {
     notify: function(event_name, data_arr) {
+      console.log(event_name, data_arr);
        $doc.trigger(event_name, [data_arr]);
 
     },
