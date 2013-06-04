@@ -3,7 +3,22 @@ if (typeof(game) == 'undefined') game = {};
 
 game.parser = (function(window, document, $, undefined){
   // Private
-  var $doc = $(document), $parser = $doc.find('#parser');
+  var $doc = $(document), $parser = $doc.find('#parser'), cmds = {
+    console: function(){
+      return 'Not meant for in game use. Could lead to unforseen consequences.';
+    },
+    exits: function(){
+      return game.location.exits();
+    },
+    exit: {},
+    get: {},
+    help: {},
+    look: function(){
+      game.location.look();
+    },
+    use: {},
+    talk: {}
+  };
 
   function parserHandler(e) {
     if(e.keyCode === 13) {
@@ -20,7 +35,7 @@ game.parser = (function(window, document, $, undefined){
       for(var i = 0, len = commands.length; i < len; i++) {
        // if(input[0] === ga)
        if(input[0] === commands[i]) {
-        console.log(commands[i]);
+        cmds[input[0]]();
        }
       }
     } else {
@@ -39,11 +54,14 @@ game.parser = (function(window, document, $, undefined){
   // Public
   return {
     init: function(){
+      for(var key in cmds) {
+        game.parser.commands.push(key);
+      }
       console.log($parser);
       $parser.on('keypress', parserHandler);
     },
 
-    commands: ['console', 'exits', 'exit', 'get', 'help', 'look', 'use', 'talk']
+    commands: []
 
   };
 
