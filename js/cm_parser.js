@@ -10,14 +10,14 @@ game.parser = (function(window, document, $, undefined){
     exits: function(){
       return game.location.exits();
     },
-    exit: {},
-    get: {},
-    help: {},
+    exit: function(){},
+    get: function(){},
+    help: function(){},
     look: function(){
       game.location.look();
     },
-    use: {},
-    talk: {}
+    use: function(){},
+    say: function(){}
   };
 
   function parserHandler(e) {

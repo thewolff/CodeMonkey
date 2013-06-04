@@ -142,12 +142,27 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+   ::-webkit-input-placeholder { color:#00CC00; }
+   ::-moz-placeholder { color:#00CC00; } /* firefox 19+ */
+   :-ms-input-placeholder { color:#00CC00; } /* ie */
+   input:-moz-placeholder { color:#00CC00; }
+
 .parser input {
     background:#000;
     color: #00CC00;
+    width: 100%;
+    font-family: 'BitstreamVeraSansMonoRoman', Arial, san-serif;
     font-size: 24px;
+    padding-bottom: 10px;
+    display: block;
+    border: 0 none;
+    border-bottom: 1px solid #00CC00;
 }
 
+.parser input:focus {
+    outline: none;
+}
 
 
 
