@@ -9,6 +9,7 @@ game = (function(window, document, $, undefined){
   return {
 	init: function() {
 	   console.log('inittown');
+	   game.parser.init();
 
 	}
 
